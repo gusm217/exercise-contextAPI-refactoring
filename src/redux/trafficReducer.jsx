@@ -1,21 +1,21 @@
-// src/redux/trafficReducer.jsx
+// // src/redux/trafficReducer.jsx
 
-import { CHANGE_SIGNAL } from './actionCreators';
+// import { CHANGE_SIGNAL } from './actionCreators';
 
-const initialState = {
-  signal: { color: 'red' },
-}
+// const initialState = {
+//   signal: { color: 'red' },
+// }
 
-function trafficReducer(state = initialState, action) {
-  switch (action.type) {
-    case CHANGE_SIGNAL:
-      return {
-        ...state,
-        signal: { ...state.signal, color: action.payload }
-      };
-    default:
-      return state;
-  }
-}
+// function trafficReducer(state = initialState, action) {
+//   switch (action.type) {
+//     case CHANGE_SIGNAL:
+//       return {
+//         ...state,
+//         signal: { ...state.signal, color: action.payload }
+//       };
+//     default:
+//       return state;
+//   }
+// }
 
-export default trafficReducer;
+// export default trafficReducer;
